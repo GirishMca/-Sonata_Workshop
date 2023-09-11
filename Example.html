@@ -1,0 +1,39 @@
+
+ <!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h1>javascript Example</h1>
+            <p id="demo"></p>
+          <script>
+            let a=5;
+            let b=8;
+            let c=a+b;
+            document.getElementByid("demo").innerHTML="The value of c is "+c;  
+          </script>
+          
+          <button onclick="document.getElementById('demo').innerHTML = Date()">
+            The Time is?
+          </button>
+          <p id="demo"></p>
+        </body>
+    </head>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+
+</body>
+</html>
